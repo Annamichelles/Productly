@@ -20,6 +20,7 @@ body {
 	justify-content: center;
 	align-content: flex-start;
 	flex-wrap: wrap;
+	gap: 30px;
 }
 
 section {
@@ -46,7 +47,6 @@ section {
 	cursor: pointer;
 	display: flex;
 	justify-content: flex-start;
-	
 }
 
 .menu li {
@@ -58,7 +58,6 @@ section {
 	text-decoration: none;
 }
 
-/*fix hover and padding*/
 .customers {
 	padding-left: 10px;
 }
@@ -107,6 +106,9 @@ section {
 	justify-content: center;
 	align-items: center;
 	display: flex;
+	position: relative;
+    top: 50px;
+    bottom: 50px;
 }
 
 .first-section__left {
@@ -147,12 +149,48 @@ section {
 	background: #FF9900;
 	color: #FFFFFF;
 	border: none;
+	margin: 20px;
 }
 
+.btn__getstarted:hover {
+ 	border: 1px solid #FFFFFF;
+}
 
+.btn-link {
+	display: flex;
+	justify-content: flex-start;
+    align-items: center;
+}
+
+.watch-video {
+	width: 350px;
+	color: #FF9900;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px; /* 150% */
+	cursor: pointer;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.watch-video li {
+	display: flex;
+}
+
+.watch-video a {
+	color: #FF9900;
+	text-decoration: underline;
+}
+
+.watch-video ul {
+	padding-inline-start: 10px;
+}
 
 .second-section {
     width: 100vw;
+    height: 543px;
 	background: #FFFFFF;
 	border: none;
 	margin: 10px;
@@ -161,7 +199,10 @@ section {
 	align-items: center;
 	flex-wrap: wrap;
 	flex-direction: column;
-	}
+	position: relative;
+    top: 50px;
+    bottom: 50px;
+}
 
 .second-title {
 	width: 539px;
@@ -181,7 +222,7 @@ section {
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-start;
-	}
+}
 
 .small-section {
 	width: 240px;
@@ -228,8 +269,6 @@ section {
  	border: 1px solid #FFFFFF;
 }
 
-
-
 .third-section {
 	height: 574px;
 	width: 1110px;
@@ -237,6 +276,9 @@ section {
 	justify-content: flex-start;
 	align-items: center;
 	display: flex;
+	position: relative;
+    top: 50px;
+    bottom: 50px;
 }
 
 .third-section__left {
@@ -267,9 +309,6 @@ section {
 	font-weight: 600;
 }
 
-
-
-
 .fourth-section {
 	height: 574px;
 	width: 1110px;
@@ -277,6 +316,9 @@ section {
 	justify-content: flex-start;
 	align-items: center;
 	display: flex;
+	position: relative;
+    top: 50px;
+    bottom: 50px;
 }
 
 .fourth-section__left {
@@ -296,6 +338,7 @@ section {
 	font-size: 32px;
 	font-style: normal;
 	font-weight: 600;
+	padding-left: 20px;
 }
 
 .fourth-section__text {
@@ -313,15 +356,15 @@ section {
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 600;
+	padding-left: 20px;
 }
 
 .small-section__fourth {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	padding-left: 20px;
 }
-
-
 
 .fifth-section {
 	height: 574px;
@@ -330,6 +373,9 @@ section {
 	justify-content: flex-start;
 	align-items: center;
 	display: flex;
+	position: relative;
+    top: 50px;
+    bottom: 50px;
 }
 
 .fifth-section__left {
@@ -360,14 +406,15 @@ section {
 	font-weight: 600;
 }
 
-
 .footer {
 	width: 100vw;
 	height: 308px;
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
+	align-items: end;
 	padding: 20px 10%;
+	position: relative;
+	top: 50px;
 }
 
 .footer-text {
@@ -391,7 +438,6 @@ section {
 	text-decoration: none;
 }
 
-
 .menu-footer__second li {
 	display: flex;
 }
@@ -405,7 +451,7 @@ section {
 	cursor: pointer;
 	display: flex;
     justify-content: center;
-    align-self: flex-start;
+    align-self: center;
 }
 
 .footer-right {
@@ -429,6 +475,10 @@ section {
 	color: #FFFFFF;
 	border: none;
 	margin: 10px;
+}
+
+.btn-footer:hover {
+ 	border: 1px solid #FFFFFF;
 }
 
 .inputfield {
